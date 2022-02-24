@@ -11,7 +11,16 @@
     color: black;
 }
 .link-direccion:hover {
-  color: darkgrey;
+    color: darkgrey;
+}
+
+
+
+.direccion-email {
+    color: black;
+}
+.direccion-email:hover {
+    color: darkgrey;
 }
 
 
@@ -72,4 +81,11 @@
 .boton-contacto:hover {
     color: darkgoldenrod;
     background-color: white;
+}
+
+
+.despacho-abogado {
+    background-image: url("/images/imagen-despacho-abogados.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
