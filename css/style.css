@@ -1,0 +1,75 @@
+.buttons-facebook:hover {
+    transform: scale(1.2);
+}
+.buttons-twitter:hover {
+    transform: scale(1.2);
+}
+
+
+
+.link-direccion:visited{
+    color: black;
+}
+.link-direccion:hover {
+  color: darkgrey;
+}
+
+
+
+.link-aviso-legal:visited {
+    color: white;
+}
+.link-aviso-legal:hover {
+    color: darkgrey;
+}
+
+.link-politica-privacidad:visited {
+    color: white;
+}
+.link-politica-privacidad:hover {
+    color: darkgrey;
+}
+
+.link-politica-cookies:visited {
+    color: white;
+}
+.link-politica-cookies:hover {
+    color: darkgrey;
+}
+
+.link-personalizar-cookies:visited {
+    color: white;
+}
+.link-personalizar-cookies:hover {
+    color: darkgrey;
+}
+
+
+
+.nav-link{
+    color: gray;
+}
+.nav-link:focus{
+    color: gray;
+}
+
+.nav-link:hover {
+    background-color: darkgray;
+}
+
+.dropdown-item:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+.inicio-profesionales{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(56,41,142,1) 74%, rgba(34,0,255,1) 100%);
+    color: white;
+}
+.boton-contacto:hover {
+    color: darkgoldenrod;
+    background-color: white;
+}
