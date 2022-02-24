@@ -82,3 +82,9 @@
     color: darkgoldenrod;
     background-color: white;
 }
+
+
+.imagen-principal {
+    width: 100%;
+    height: auto;
+}
