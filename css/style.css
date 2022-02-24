@@ -82,10 +82,3 @@
     color: darkgoldenrod;
     background-color: white;
 }
-
-
-.despacho-abogado {
-    background-image: url("/images/imagen-despacho-abogados.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
