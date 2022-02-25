@@ -56,10 +56,10 @@
 
 
 .nav-link{
-    color: gray;
+    color: darkgray;
 }
 .nav-link:focus{
-    color: gray;
+    color: darkgray;
 }
 
 .nav-link:hover {
@@ -67,20 +67,20 @@
 }
 
 .dropdown-item:hover{
-    background-color: black;
+    background-color: darkgray;
     color: white;
 }
 
 
 
 .inicio-profesionales{
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(56,41,142,1) 74%, rgba(34,0,255,1) 100%);
+    background: rgb(19,215,203);
+    background: linear-gradient(90deg, rgba(19,215,203,1) 0%, rgba(157,151,214,1) 100%);
     color: white;
 }
 .boton-contacto:hover {
-    color: darkgoldenrod;
-    background-color: white;
+    color: white;
+    background-color: darkgray;
 }
 
 
