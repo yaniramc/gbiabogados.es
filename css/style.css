@@ -6,53 +6,12 @@
 }
 
 
-
-.link-direccion:visited{
-    color: black;
-}
-.link-direccion:hover {
-    color: darkgrey;
-}
-
-
-
 .direccion-email {
     color: black;
 }
 .direccion-email:hover {
     color: darkgrey;
 }
-
-
-
-.link-aviso-legal:visited {
-    color: white;
-}
-.link-aviso-legal:hover {
-    color: darkgrey;
-}
-
-.link-politica-privacidad:visited {
-    color: white;
-}
-.link-politica-privacidad:hover {
-    color: darkgrey;
-}
-
-.link-politica-cookies:visited {
-    color: white;
-}
-.link-politica-cookies:hover {
-    color: darkgrey;
-}
-
-.link-personalizar-cookies:visited {
-    color: white;
-}
-.link-personalizar-cookies:hover {
-    color: darkgrey;
-}
-
 
 
 .nav-link{
