@@ -1,86 +1,7 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
-    <title>Garoña Abogados</title>
-    <link rel="shortcut icon" href="../images/mini-icon.jpg">
-
-    <link href="../css/style.css" rel="stylesheet" type="text/css">
-</head>
-<body>
-
-<div class="container-fluid col-sm-12">
-    <img src="../images/imagen-principal.jpg" alt="imagen-principal" class="img-fluid d-flex justify-content-center imagen-principal">
-</div>
-
-<header>
-    <nav class="navbar navbar-expand-lg navbar-light col-sm-12">
-        <div class="container">
-            <a class="navbar-brand" href="../">
-                <img src="../images/logo-principal.png" alt="logo-principal" width="128" height="80" class="mx-5">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav nav-tabs">
-                    <li class="nav-item mx-2">
-                        <a class="nav-link active" aria-current="page" href="../">INICIO</a>
-                    </li>
-                    <li class="nav-item mx-2">
-                        <a class="nav-link" href="../penal/">PENAL</a>
-                    </li>
-                    <li class="nav-item mx-2">
-                        <a class="nav-link" href="../divorcios/">DIVORCIOS</a>
-                    </li>
-                    <li class="nav-item mx-2">
-                        <a class="nav-link" href="../civil/">CIVIL</a>
-                    </li>
-                    <li class="nav-item mx-2">
-                        <a class="nav-link" href="../internacional/">INTERNACIONAL</a>
-                    </li>
-                    <li class="nav-item mx-2">
-                        <a class="nav-link" href="../mercantil/">MERCANTIL</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDespacho" role="button"
-                           data-bs-toggle="dropdown" aria-expanded="false">
-                            DESPACHO
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDespacho">
-                            <li><a class="dropdown-item" href="../mision/">MISIÓN</a></li>
-                            <li><a class="dropdown-item" href="../bufete/">BUFETE</a></li>
-                            <li><a class="dropdown-item" href="../casos-de-exito/">CASOS DE ÉXITO</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item mx-2">
-                        <a class="nav-link" href="../index.html#contacto">CONTACTO</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarContact" role="button"
-                           data-bs-toggle="dropdown" aria-expanded="false">
-                            POLÍTICAS
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarContact">
-                            <li><a class="dropdown-item" href="../aviso-legal/">AVISO LEGAL</a></li>
-                            <li><a class="dropdown-item" href="../politica-de-privacidad/">PRIVACIDAD</a></li>
-                            <li><a class="dropdown-item" href="../politica-de-cookies/">COOKIES</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-</header>
+---
+layout: default
+permalink: politica-de-cookies
+---
 
 <main>
     <section class="aviso-legal d-flex justify-content-center mt-5 pb-3">
@@ -110,8 +31,8 @@
     <section class="aviso-legal d-flex justify-content-center pb-3">
         <div class="container">
             <h5 class="my-4" style="color: #666;">Cookies utilizadas en el sitio Web</h5>
-            <p>A continuación se clasifican las cookies utilizadas por el sitio Web <a href="http://gbiabogados.es/" target="_blank"
-                                                                                       class="text-black">gbiabogados.es</a>.
+            <p>A continuación se clasifican las cookies utilizadas por el sitio Web <a href="https://gbiabogados.es/" target="_blank"
+                                                                                       class="text-black">https://gbiabogados.es</a>.
             </p>
             <p><strong>Según la entidad que las gestiona</strong></p>
             <ul>
@@ -230,9 +151,9 @@
             <ul>
                 <li>Aceptar o rechazar la instalación de cookies, o retirar el consentimiento previamente otorgado.</li>
                 <li>Cambiar las preferencias de cookies desde la página Personalizar Cookies, a la que puede acceder
-                    desde el Aviso de Cookies o desde la página de <a href="../personalizar-cookies/"
+                    desde el Aviso de Cookies o desde la página de <a href="{{ site.baseurl }}{% link personalizar-cookies.html %}"
                                                                       class="text-black">Personalizar Cookies.</a></li>
-                <li>Obtener información adicional en la página de <a href="../politica-de-cookies/" class="text-black">Política
+                <li>Obtener información adicional en la página de <a href="{{ site.baseurl }}{% link politica-de-cookies.html %}" class="text-black">Política
                     de Cookies.</a></li>
             </ul>
         </div>
@@ -273,7 +194,7 @@
             <p>
                 El Titular es el Responsable del tratamiento de los datos personales del usuario. Puede consultar toda
                 la información relativa al tratamiento de datos personales que recoge el Titular en la página de la
-                <a href="../politica-de-privacidad/" class="text-black">Política de Privacidad</a>.
+                <a href="{{ site.baseurl }}{% link politica-de-privacidad.html %}" class="text-black">Política de Privacidad</a>.
             </p>
         </div>
     </section>
@@ -290,56 +211,3 @@
         </div>
     </section>
 </main>
-
-
-<footer>
-    <hr>
-    <div class="container-fluid py-5">
-        <div class="text-center d-flex justify-content-center row row-cols-1 row-cols-sm-2 row-cols-md-4">
-            <div class="col">
-                <img src="../images/logo-mediano.png" alt="logo-mediano" width="300" height="186">
-            </div>
-            <div class="col">
-                <h5 class="pb-3 pt-3">DIRECCIÓN</h5>
-                <a href="https://goo.gl/maps/1H4je1AgfJYVn3wF8" target="_blank" class="text-black">Avda. Ricardo Soriano, 20, 7D, 29601 Marbella</a>
-                <br>
-                <a href="https://goo.gl/maps/ExvZhcvRNNpWVHK96" target="_blank" class="text-black">Avda. Republica Argentina, 19C, 1C, 41011 Sevilla</a>
-            </div>
-            <div class="col">
-                <h5 class="pb-3 pt-3">HORARIO</h5>
-                <p>17:00 – 20:00</p>
-                <p>Lunes- Viernes</p>
-            </div>
-            <div class="col">
-                <h5 class="pb-3 pt-3">CONTACTO</h5>
-                <p>+34 670 57 85 05</p>
-                <a href="mailto:belenisanudo@gmail.com" class="direccion-email">belenisanudo@gmail.com</a>
-            </div>
-        </div>
-    </div>
-    <div class="d-flex justify-content-center bg-dark">
-        <p class="mx-2 my-2"><a href="../aviso-legal" class="my-2 text-white">Aviso Legal</a></p>
-        <p class="mx-2 my-2"><a href="../politica-de-privacidad" class="text-white">Política de
-            Privacidad</a></p>
-        <p class="mx-2 my-2"><a href="../politica-de-cookies" class="text-white">Política de Cookies</a>
-        </p>
-        <p class="mx-2 my-2"><a href="../personalizar-cookies" class="text-white">Personalizar
-            Cookies</a></p>
-    </div>
-</footer>
-
-
-<!-- Optional JavaScript; choose one of the two! -->
-
-<!-- Option 1: Bootstrap Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
-
-<!-- Option 2: Separate Popper and Bootstrap JS -->
-<!--
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
--->
-</body>
-</html>

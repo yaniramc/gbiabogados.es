@@ -1,22 +1,23 @@
 .buttons-facebook:hover {
     transform: scale(1.2);
 }
+
 .buttons-twitter:hover {
     transform: scale(1.2);
 }
 
-
 .direccion-email {
     color: black;
 }
+
 .direccion-email:hover {
     color: darkgrey;
 }
 
-
 .nav-link{
     color: darkgray;
 }
+
 .nav-link:focus{
     color: darkgray;
 }
@@ -30,18 +31,16 @@
     color: white;
 }
 
-
-
 .inicio-profesionales{
     background: rgb(19,215,203);
     background: linear-gradient(90deg, rgba(19,215,203,1) 0%, rgba(157,151,214,1) 100%);
     color: white;
 }
+
 .boton-contacto:hover {
     color: white;
     background-color: darkgray;
 }
-
 
 .imagen-principal {
     width: 100%;
